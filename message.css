@@ -1,0 +1,451 @@
+/* Public CSS By A$#0009 (cred to alex the god)
+ */
+
+/* Important Shit */
+#ad-bottom,
+#ad-left {
+	visibility: hidden
+}
+#logo {
+	visibility: hidden
+}
+/* Left Interface */
+.left-icons .icon-btn .text-icon {
+    display: none;
+}
+
+.left-icons .icon-btn {
+    background: rgba(0, 0, 0, 0);
+    border-top: none;
+    border-bottom: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 0px;
+}
+#left-icons {
+	border: 2px solid #fff !important;
+	width: 100px;
+	align-items: center;
+	-webkit-box-shadow:0px 0px 105px 45px #000;
+-moz-box-shadow: 0px 0px 105px 45px #000;
+box-shadow: 0px 0px 5px 3px #000;
+	background: #000000;
+	margin-top: -7%;
+	margin-left: -1%;
+}
+div.money {
+	background: transparent !important;
+	border: none !important;
+	
+}
+div.card-cont.avatar-info {
+visibility: hidden
+}
+div.card-cont.user-info {
+background: #000000 !important;
+border: none !important;
+border: 2px solid red !important;
+	border-radius: 0;
+	margin-left: -31%;
+	height: 100px;
+	margin-top: 4%
+}
+
+div.progress-label {
+visibility: hidden
+}
+div.progress[data-v-5aafd15a]{
+	background: #fff !important;
+	margin-top: 8%;
+	visibility: hidden
+}
+div.progress-top {
+	margin-top: -60px !important;
+}
+div.progress-line {
+	visibility: hidden
+}
+div.money:nth-child(1) {
+	margin-left: 70%;
+	margin-top: -35%;
+}
+div.money:nth-child(2) {
+	margin-left: -35%;
+		margin-top: -18%
+}
+div.level-value {
+background: transparent !important;
+color: white !important;
+}
+span.level-text {
+color: white !important;
+}
+/* Right Interface */
+.right-icons .icon-btn, .inventory-card  {
+    width: 140px !important;
+	background: #000000 !important;
+	border-radius: 0 !important;
+	border: 2px solid white !important;
+}
+
+.right-icons svg, .gun-img[data-v-e0ea0f78] {
+    display: none;
+}
+
+.right-icons .wrapper {
+    transform: none !important;
+    height: 13px;
+}
+.settings {
+	background: #000000 !important;
+	border: 2px solid white !important;
+	align-items: center !important;
+}
+div.card-cont.soc-group {
+	background: #353535 !important;
+	border: none !important;
+	border: 2px solid white !important;
+	border-radius: 0;
+}
+#play-btn {
+    background: #000000 !important;
+	transform: none;
+	border-radius: 0;
+	border: 2px solid white !important;
+	margin-right: -0%
+}
+
+#play-btn .border-top,
+#play-btn .border-bottom {
+    background: none;
+}
+
+.triangle[data-v-02c36fca] {
+     display: none !important;
+}
+.custom-checkbox > span[data-v-47e1b746]:before {
+    border-radius: 5px;
+    background-color: #000000;
+    border: white;
+}
+
+.custom-checkbox > input:checked + span[data-v-47e1b746]:before {
+    background-color: #000000;
+}
+div.select-mod {
+	background: #000000 !important;
+	border: 2px solid white !important;
+	border-radius: 0 !important;
+}
+div.select-region {
+	background: #353535 !important;
+	border: 2px solid white !important;
+	border-radius: 0 !important;
+}
+div.select-regions-cont {
+	background: #353535 !important;
+	border: 2px solid white !important;
+	border-radius: 0 !important;
+}
+div.select-mods-cont {
+	background: #ef0101 !important;
+	border: 2px solid white !important;
+	border-radius: 0 !important;
+}
+hr {
+	visibility: hidden
+}
+div.map-title::after {
+	content: "Made by A$#0009";
+	visibility: visible;
+	align-content: center;
+}
+div.map-title {
+	visibility: hidden
+}
+.live-streams {
+	visibility: show
+}
+div.levels {
+	background: transparent !important;
+	color: #fff !important;
+}
+div.header {
+color: #ff0051 !important;
+}
+div.text-2.tab.active {
+color: #ff0051 !important;
+border: 3px solid #ff0051 !important;
+}
+div.box {
+background: #353535 !important;
+border: 2px solid white !important;
+}
+
+/* Remove Backgrounds */
+#app > div.interface.text-2 > div.background{
+  background: url(https://cdn.discordapp.com/attachments/950521168421584896/980136475624632360/ContentJitteryCats-size_restricted.gif);animation:loopPattern 100s linear infinite; 
+}
+#app > div.interface.text-2 > div.background > div.pattern-bg,
+#app > div.interface.text-2 > div.background > div.bg-radial{
+  display: none !important
+}
+
+.end-modal	{
+	background:url(https://cdn.discordapp.com/attachments/950521168421584896/978989881328017488/vm8nm5grcg0byzhx81d3zaq1mf731m.jpg) repeat!important;
+}
+@-webkit-keyframes loopPattern{
+	0%{background-position:0 0}to{background-position:0 100%}
+}
+
+#app > div.interface.text-2 > div.background > div.bg-radial{
+  display: none !important
+}
+.clans, .hub-container, .mobile-fullscreen, .add-friends, .tab-bar, .top-items, .subject, .inventory .avatar, .inventory .bottom {
+    background: transparent !important;
+}
+
+.head-text, .reset-time, .info-awards, .news, .list-cont, .card-profile, .profile .k-d, .profile .statistics, .profile-cont .progress[data-v-d2be3bc6] {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.tabs {
+    background: transparent !important;
+    border-bottom: white !important;
+    box-shadow: black !important;
+    border-right: black !important;
+}
+
+.active-tab, .tab {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.limit {
+    border-left: none !important;
+}
+
+.top-bar, .home, .name-page {
+    display: none !important;
+}
+
+.container {
+    background: transparent !important;
+    backdrop-filter: blur(5px);
+    box-shadow: none !important;
+}
+
+.champions-list {
+    box-shadow: black !important;
+}
+
+.subjects, .gun {
+    background transparent !important;
+    border: none !important;
+}
+
+.profile .you {
+    visibility: hidden;
+}
+
+div.friend {
+	background-color: #000000 !important;
+}
+div.level-cont {
+	background: #000000 !important;
+	border-right: #000000 !important;
+}
+div.delete {
+	background: #000000 !important;
+	border-left: #353535 !important;
+}
+::-webkit-scrollbar-thumb {background-color: white !important}
+/* In Game */
+div.selected[data-v-68ad001e]{
+background: #ff0051 !important;
+}
+div.right-container {
+	background: transparent !important;
+}
+.kill-death {
+    position: fixed;
+    right: 840px;
+    bottom: 88.2%;
+    left: unset !important;
+    background: transparent;
+}
+
+.mini-map-cont .name {
+    display: none;
+}
+
+.info-key-cont {
+    display: none;
+}
+
+.list-weapons {
+    display: none !important;
+}
+
+.hp {
+    margin-right: 20%;
+}
+
+.hp-title {
+    display: "health" !important;
+    color: red !important;
+    content "stay alive!" !important;
+}
+
+.state {
+    margin-left: 36%;
+}
+
+.cont-endurance {
+    margin-left: 2%;
+}
+
+.mWwn {
+    display: none !important;
+}
+
+.weapons-cont {
+    margin-right: 36.5%;
+    margin-bottom: 18%;
+}
+
+.instruction {
+    display: none !important;
+}
+
+
+.timer {
+    position: fixed !important;
+    left: 46.5%;
+    bottom: 91%;
+}
+
+.endurance-progress[data-v-57051149] {
+    border-radius: 0.188rem;
+    background: #000000;
+    height: 0.7rem;
+    transition: width 0.6s ease;
+    color: red !important;
+}
+
+.kill-death .kill,
+.kill-death .death {
+    background: none;
+    box-shadow: none;
+}
+
+.state-cont .timer {
+    position: fixed;
+    top: 18px;
+    background: transparent !important;
+    box-shadow: white !important;
+    font-size: 50px;
+}
+
+.hp-progress {
+    background: #000000 !important;
+}
+
+.ammunition {
+    margin-top: 35rem;
+	margin-right: 12.5rem
+}
+.chat {
+	
+}
+/* Misc */
+div.server {
+background: #000000 !important;
+}
+button.button.join {
+transform: none;
+	background: #000000 !important;
+	--top: #353535 !important;
+	--bottom: #353535 !important;
+}
+span.lvl {
+color: purple !important;
+}
+span.name {
+color: black !important;
+}
+div.messages.messages-cont.small {
+background: black !important;
+}
+input#WMNn.input {
+background: #353535 !important;
+}
+button.button.join-img.rectangle {
+	background: #000000 !important;
+	--top: #353535 !important;
+	--bottom: #353535 !important;
+}
+/* Animations */
+.clan-tag {
+    animation: glow 1.2s ease-in-out infinite alternate;
+    color: pink !important;
+}
+@keyframes loopPattern-data-v-50a88834 {
+    0% {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 100vh;
+    }
+}
+@keyframes loopPattern-data-v-50a88834 {
+    0% {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 100vh;
+    }
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 1px #000, 0 0 2px var(--primary-1),
+        0 0 30px var(--primary-1), 0 0 4px var(--primary-1),
+        0 0 5px var(--primary-1), 0 0 6px var(--primary-1),
+        0 0 7px var(--primary-1);
+    }
+    to {
+        text-shadow: 0 0 2px var(--primary-1), 0 0 3px var(--secondary-7),
+        0 0 4px var(--secondary-7), 0 0 5px var(--secondary-7),
+        0 0 6px var(--secondary-7), 0 0 7px var(--secondary-7),
+        0 0 8px var(--secondary-7);
+    }
+}
+#app > div.interface.text-2 > img {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    color: red !important;
+}
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 15px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
+.endurance-progress[data-v-57051149] {
+    border-radius: 0.188rem;
+    background: var(--primary-1);
+    height: 0.7rem;
+    transition: width 0.6s ease;
+    color: red !important;
+    }
+#app > div.end-modal > div.content > div.right-cont-content > div.next-round.text-2 > div.progress-line.progress-line.secondary {
+    background: black (--base color) !important;
+}
